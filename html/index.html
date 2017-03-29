@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/canvas.css" />
+		<style type="text/css">
+			#fix{
+				position: fixed;
+				width: 250px;
+				left: 50px;
+				top: 200px;
+				text-indent: 24px;
+			}
+			#fix p{
+				margin-bottom: 20px;
+			}
+			#red{
+				font-size: 20px;
+				color: red;
+				font-weight: 900;
+			}
+		</style>
+		<script src="../js/TweenMax.min.js"></script>
+	</head>
+
+	<body onselectstart="return false">
+		<div id="fix"><p id="red">公告</p><p>由于本作最初未打算做在线，所以未考虑首次加载，也未加入loading等待。导致首次游戏时出现丢帧、卡顿，原因是生产环境与开发环境不同。 </p><p>所以首次进入游戏您就当打个酱油吧，随便玩一玩然后F5刷新页面，浏览器已经缓存，再次游戏时会无比流畅~</p></div>
+		<div id="wrap">
+			<div id="main">
+				<video width="auto" height="100%" autoplay="autoplay" loop="loop" id="vd">
+					<source src="../img/homepage/video.mp4" type="video/mp4"></source>
+					当前浏览器不支持 video直接播放，点击这里下载视频：
+					<a href="javascript:;">下载视频</a>
+				</video>
+			</div>
+			<div id="talent_wrap">
+				<div id="content"></div>
+				<div id="way">
+					<h3>玩法介绍</h3>
+					<div><span>鼠标左键</span>：增加天赋加点、发射子弹。</div>
+					<div><span>鼠标右键</span>：减少天赋加点。</div>
+					<div><span>W、A、S、D</span>：控制上、左、下、右移动。</div>
+					<div>建议使用高版本Chrome、fireFox浏览器</div>
+				</div>
+			</div>
+			<canvas id="canvas" width="1200" height="800"></canvas>
+		</div>
+		<audio src="" autoplay id="audio"></audio>
+		<audio src="" loop autoplay id="audio1"></audio>
+		<script src="../js/data.js"></script>
+		<script src="../js/tool.js"></script>
+		<script src="../js/home.js"></script>
+		<script src="../js/talent.js"></script>
+		<script src="../js/canvas.js"></script>
+		<script src="../js/player.js"></script>
+		<script src="../js/monster.js"></script>
+		<script src="../js/bullet.js"></script>
+		<script src="../js/gameOver.js"></script>
+		<script src="../js/main.js"></script>
+	</body>
+
+</html>

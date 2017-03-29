@@ -1,0 +1,306 @@
+body {
+  -moz-user-select: none;
+}
+#wrap {
+  width: 1200px;
+  height: 800px;
+  margin: 20px auto 0;
+  position: relative;
+  overflow: hidden;
+}
+#wrap #main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  cursor: url(../img/cur1.cur), auto;
+}
+#wrap #main video {
+  position: absolute;
+  top: 0;
+  left: -220px;
+  background: #000;
+}
+#wrap #main #logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+#wrap #main #logo h1 {
+  width: 300px;
+  height: 0px;
+  font-size: 0;
+  padding-top: 150px;
+  background: url(../img/homepage/title.png) no-repeat;
+}
+#wrap #main #logo span {
+  letter-spacing: -1px;
+  display: block;
+  position: relative;
+  top: -20px;
+  text-indent: 100px;
+  width: 300px;
+  font: italic bold 15px/20px arial, sans-serif;
+  text-shadow: 3px 3px 7px black;
+  color: #fff;
+}
+#wrap #main #list {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+}
+#wrap #main #list .lis {
+  width: 200px;
+  height: 80px;
+  margin: 30px 0;
+  background: url(../img/homepage/lis-bg.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font: 20px/80px "微软雅黑";
+}
+#wrap #canvas {
+  background: url(../img/canvas/cbg.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  cursor: url(../img/aim.png), auto;
+}
+#wrap #talent_wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 1200px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: url(../img/cur1.cur), auto;
+}
+#wrap #talent_wrap #way {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  width: 350px;
+  color: #FFF;
+  font: 16px/30px "微软雅黑";
+}
+#wrap #talent_wrap #way h3 {
+  width: 100%;
+  text-indent: 100px;
+}
+#wrap #talent_wrap #way div {
+  margin: 30px 0;
+}
+#wrap #talent_wrap #way div span {
+  color: red;
+}
+#wrap #talent_wrap #content {
+  position: relative;
+  width: 720px;
+  height: 800px;
+  left: 400px;
+  top: -800px;
+  background: url(../img/talent/talent-bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+#wrap #talent_wrap #content .go {
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+  width: 120px;
+  height: 40px;
+  background: url(../img/btn.png) no-repeat 0 -40px;
+  font: 20px/35px "微软雅黑";
+  text-align: center;
+  color: #fff;
+}
+#wrap #talent_wrap #content .go:hover {
+  background-position: 0 0;
+}
+#wrap #talent_wrap #content .sp {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  font: 20px/40px "微软雅黑";
+  right: 80px;
+  top: 150px;
+}
+#wrap #talent_wrap #content .text {
+  position: absolute;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #000;
+  border-radius: 3px;
+  z-index: 2;
+}
+#wrap #talent_wrap #content .text header {
+  font: 18px/30px "微软雅黑";
+  color: #f00a0a;
+}
+#wrap #talent_wrap #content .text .num {
+  font: 14px/20px "微软雅黑";
+  color: #ffff00;
+}
+#wrap #talent_wrap #content .text .describe {
+  padding-top: 5px;
+  font: 12px/18px "微软雅黑";
+  color: #fff;
+}
+#wrap #talent_wrap #content .t {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 5px;
+  box-shadow: -10px 15px 10px 0px rgba(0, 0, 0, 0.3);
+  background: url(../img/talent/talents.png) no-repeat;
+}
+#wrap #talent_wrap #content .t .info {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  border: 1px solid green;
+  background: rgba(0, 0, 0, 0.9);
+  left: 20px;
+  top: 43px;
+  text-align: center;
+  color: green;
+  font: bold 14px/12px arial;
+}
+#wrap #talent_wrap #content #lf1 {
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background: url(../img/talent/lf.png) no-repeat;
+  left: 215px;
+  top: 342px;
+}
+#wrap #talent_wrap #content #lf2 {
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background: url(../img/talent/lf.png) no-repeat;
+  left: 515px;
+  top: 342px;
+}
+#wrap #talent_wrap #content #mi1 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 145px;
+  top: 280px;
+}
+#wrap #talent_wrap #content #mi2 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 195px;
+  top: 480px;
+}
+#wrap #talent_wrap #content #mi3 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 345px;
+  top: 280px;
+}
+#wrap #talent_wrap #content #mi4 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 445px;
+  top: 242px;
+}
+#wrap #talent_wrap #content #mi5 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 545px;
+  top: 280px;
+}
+#wrap #talent_wrap #content #mi6 {
+  position: absolute;
+  width: 16px;
+  height: 100px;
+  background: url(../img/talent/mi.png) no-repeat;
+  left: 495px;
+  top: 480px;
+}
+#wrap #talent_wrap #content #rt1 {
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background: url(../img/talent/rt.png) no-repeat;
+  left: 145px;
+  top: 342px;
+}
+#wrap #talent_wrap #content #rt2 {
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background: url(../img/talent/rt.png) no-repeat;
+  left: 446px;
+  top: 342px;
+}
+#wrap #gameOver {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: url(../img/gameover/game_over_bg2.jpg) no-repeat;
+  background-size: 100% 100%;
+  cursor: url(../img/cur1.cur), auto;
+}
+#wrap #gameOver #score {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 350px;
+  top: 100px;
+  background: url(../img/gameover/game_over_bg.png) no-repeat;
+  background-size: 500px 500px;
+  border-radius: 5px;
+  box-shadow: 0 30px 150px 5px inset;
+}
+#wrap #gameOver #score header {
+  text-align: center;
+  font: bold 30px/100px arial;
+  color: #FFF9B5;
+}
+#wrap #gameOver #score .sc {
+  position: relative;
+  left: -200px;
+  opacity: 0;
+  transform: scale(0.5);
+  text-indent: 120px;
+  font: italic 100 25px/80px "华文行楷";
+  color: #FFF9B5;
+}
+#wrap #gameOver #score .sc span {
+  color: red;
+  font: 900 25px/80px "微软雅黑";
+  padding-left: 30px;
+}
+#wrap #gameOver #score #replay {
+  position: absolute;
+  left: 190px;
+  bottom: 40px;
+  width: 120px;
+  height: 40px;
+  background: url(../img/btn.png) no-repeat 0 -40px;
+  font: 20px/35px "微软雅黑";
+  text-align: center;
+  color: #fff;
+}
+#wrap #gameOver #score #replay:hover {
+  background-position: 0 0;
+}

@@ -1,0 +1,1 @@
+"use strict";var au=document.getElementById("audio"),au1=document.getElementById("audio1");au1.src="../audio/home-bg.mp3";var home=new HomePage,c=void 0,t=void 0;home.pushLogo(),home.pushList(),setTimeout(function(){t=new Talent,c=new Canvas},500);
