@@ -1,7 +1,7 @@
-# game-ol
-在线作品展示-部落3游戏  
+# 在线作品展示-部落3游戏  
 
-在线地址:[https://wudada1992.github.io/game-ol/html/](https://wudada1992.github.io/game-ol/html/)
+在线地址:  
+[https://wudada1992.github.io/game-ol/html/](https://wudada1992.github.io/game-ol/html/)
 
 ## 简介  
 这是一款canvas游戏。  
